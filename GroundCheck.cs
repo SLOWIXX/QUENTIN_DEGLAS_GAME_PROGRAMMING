@@ -6,7 +6,7 @@ public class GroundCheck : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public float groundCheckOffset = -0.5f;
 
-    private bool isGrounded;
+    public bool IsGrounded => isGrounded;
 
     private void FixedUpdate()
     {
